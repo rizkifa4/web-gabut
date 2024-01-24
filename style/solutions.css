@@ -1,0 +1,53 @@
+section {
+    min-height: 90vh;
+}
+
+body {
+
+    font-family: 'Poppins';
+    background-color: rgba(246, 247, 248, 255);
+}
+
+.navbar {
+    /* background-color: #72ace6b3; */
+    background-color: #72ace6;
+
+}
+
+.border-header {
+    border-color: #72ace6b3 !important;
+}
+
+.footer-pricing-bg {
+    background-color: #72ace6;
+}
+
+.card {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.card .card-title {
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+.card .card-body .description {
+    height: 150px;
+    overflow-y: hidden;
+    margin-bottom: 15px;
+}
+
+.btn-info {
+    background-color: #72ace6;
+    border-color: #72ace6;
+    border-radius: 10px;
+}

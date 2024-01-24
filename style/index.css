@@ -1,0 +1,373 @@
+   @font-face {
+      font-family: 'Poppins';
+      src: url(../fonts/poppins.woff2);
+   }
+
+   * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+   }
+
+   html {
+      scroll-behavior: smooth;
+   }
+
+   body {
+      font-family: 'Poppins';
+      background-color: rgba(246, 247, 248, 255);
+   }
+
+   a {
+      text-decoration: none;
+
+      color: unset;
+   }
+
+   h2 {
+      font-size: 34px;
+   }
+
+   h3 {
+      font-size: 1.2rem;
+   }
+
+   h1,
+   h2,
+   h3 {
+      font-weight: bold;
+   }
+
+   img {
+      max-width: 100%;
+   }
+
+   nav {
+      background-color: #72ace6;
+
+      box-shadow: 0 3px 7px -2px #000;
+
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      position: fixed;
+
+      z-index: 500;
+   }
+
+   .baris {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+
+   section {
+      text-align: center;
+   }
+
+   .logo {
+      height: 40px;
+      margin-left: 20px;
+   }
+
+   .navigasi {
+      margin-left: auto;
+      margin-right: 15px;
+   }
+
+   .navigasi a,
+   .shop {
+      color: #fff;
+      padding-left: 8px;
+      padding-right: 8px;
+   }
+
+   .shop {
+      margin-right: 100px;
+   }
+
+   .chat {
+      margin-right: 30px;
+      background-color: rgb(8, 69, 8);
+      color: #fff;
+      padding-top: 5px;
+      padding-right: 15px;
+      padding-bottom: 5px;
+      padding-left: 15px;
+      border-radius: 10px;
+   }
+
+
+
+   header,
+   section {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      margin-bottom: 80px;
+   }
+
+   .col-kiri,
+   .col-kanan {
+      width: 50%;
+   }
+
+   .col-kiri {
+      padding-left: 50px;
+      padding-right: 120px;
+   }
+
+   .judul-header {
+      margin-bottom: 20px;
+   }
+
+   .subjudul-header {
+      font-size: 18px;
+   }
+
+   .dapat-dibeli {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 14px;
+   }
+
+   .olshop img {
+      width: 40px;
+
+      height: auto;
+      margin-right: 10px;
+   }
+
+   /* Best Seller */
+
+   .services {
+      position: relative;
+
+      background-color: #EEE6DC;
+   }
+
+
+   .services::before,
+   .services::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 76px;
+
+      background-image: url(../images/garis-atas.png);
+
+      background-size: cover;
+
+      top: -60px;
+      left: 0;
+   }
+
+   .services::after {
+      height: 60px;
+      background-image: url(../images/garis-bawah.png);
+      top: unset;
+      bottom: -60px;
+   }
+
+   .judul-services {
+      margin-bottom: 20px;
+   }
+
+   .subjudul-services {
+      font-size: 18px;
+      margin-bottom: 40px;
+   }
+
+   .col-produk {
+      padding: 20px;
+      width: 25%;
+   }
+
+   .col-produk img {
+      transition: all 0.3s ease;
+      border-radius: 15px;
+
+      box-shadow: 0 3px 10px -2px #000;
+   }
+
+   .col-produk img:hover {
+      transform: scale(0.9);
+      border-radius: 50%;
+   }
+
+   .nama-produk {
+      margin-top: 15px;
+      font-weight: bold;
+   }
+
+   .about-us {
+      max-width: 80%;
+
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .judul-about-us {
+      margin-bottom: 30px;
+   }
+
+   .about-us img {
+      width: 800px;
+      max-width: 100%;
+   }
+
+   .tentang-about-us {
+      margin-bottom: 40px;
+   }
+
+   .penjelasan-about-us {
+      margin-top: 40px;
+   }
+
+   .tech-stacks {
+      background-color: #EEE6DC;
+      box-shadow: inset 0px 0px 23px -6px #707070;
+   }
+
+   .judul-tech-stacks {
+      margin-bottom: 20px;
+   }
+
+   .subjudul-tech-stacks {
+      margin-bottom: 30px;
+      font-size: 18px;
+      width: 800px;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .col-tech-stacks {
+      width: 25%;
+      padding: 20px;
+      background-color: #EEE6DC;
+   }
+
+   .col-tech-stacks img {
+      box-shadow: 0 3px 10px -2px #000;
+      border-radius: 50px 0px 50px 0px;
+   }
+
+   .reviews {
+      background-image: url(../images/bg-review.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+
+   .judul-reviews {
+      margin-bottom: 20px;
+   }
+
+   .subjudul-reviews {
+      margin-bottom: 40px;
+      font-size: 18px;
+   }
+
+   .reviews .baris {
+      justify-content: space-around;
+      align-items: stretch;
+   }
+
+   .col-reviews {
+      width: 30%;
+      padding: 35px 50px;
+      box-shadow: 0px 0px 12px -10px #000;
+      background-color: #fff;
+   }
+
+   .profile {
+      display: flex;
+      margin-bottom: 30px;
+      align-items: center;
+   }
+
+   .profile img {
+      width: 100px;
+      margin-right: 20px;
+   }
+
+   .profile .nama-profile {
+      text-align: left;
+   }
+
+   .contact-us {
+      margin-bottom: 20px;
+   }
+
+   .col-kontak {
+      width: 30%;
+      margin-top: 50px;
+      color: green;
+   }
+
+   footer {
+      background-color: #72ace6;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      color: #fff;
+      padding-right: 40px;
+      padding-left: 40px;
+   }
+
+   footer .navigasi {
+      margin-left: 20px;
+      margin-right: auto;
+   }
+
+   @media (max-width:768px) {
+      .navigasi {
+         display: none
+      }
+
+      .shop {
+         margin-right: 20px;
+      }
+
+      .logo {
+         margin-right: auto;
+      }
+
+      .col-kiri {
+         padding: 20px;
+         text-align: center;
+         width: 100%;
+      }
+
+      .col-kanan {
+         width: 100%;
+      }
+
+      .services {
+         padding-left: 30px;
+         padding-right: 30px;
+      }
+
+      .col-produk {
+         width: 50%;
+      }
+
+      .col-tech-stacks {
+         width: 50%;
+      }
+
+      .reviews {
+         background-size: cover;
+      }
+
+      .col-reviews {
+         width: 100%;
+         margin-bottom: 30px;
+      }
+
+      .col-kontak {
+         width: 50%;
+      }
+   }

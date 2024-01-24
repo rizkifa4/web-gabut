@@ -1,0 +1,42 @@
+{
+    "game-development": [
+        {
+            "image": "images/solutions/android.png",
+            "title": "Android Full Game Creation",
+            "description": "Full game development for the Android platform.",
+            "link": "#"
+        },
+        {
+            "image": "images/solutions/windows.png",
+            "title": "Dekstop Full Game Creation",
+            "description": "Full game development for the Windows platform.",
+            "link": "#"
+        }
+    ],
+    "art-design": [
+        {
+            "image": "images/solutions/3d-character-design.png",
+            "title": "3D Character Design",
+            "description": "Sculpt/model UV and texture while integrating high and low polygon objects.",
+            "link": "#"
+        },
+        {
+            "image": "images/solutions/3d-environment-design.png",
+            "title": "3D Environment Design",
+            "description": "Create objects and environments while balancing quality against technical limits. Check the quality of the imported items and environments.",
+            "link": "#"
+        },
+        {
+            "image": "images/solutions/technical-artist.png",
+            "title": "Technical Artist",
+            "description": "Create 3D art pipeline tools and extensions for ease of use and efficiency. Give artists and engineers advice on asset performance and validation.",
+            "link": "#"
+        },
+        {
+            "image": "images/solutions/game-design.png",
+            "title": "Game Design",
+            "description": "Participate in the level's creation, documentation, and refining, and design gameplay components in accordance with the design and creative visions. Validate the playability of the environment using testers, level artists, and gameplay programmers.",
+            "link": "#"
+        }
+    ]
+}
